@@ -1,0 +1,15 @@
+﻿<Window x:Name="winSuccess" x:Class="Mine.WinSuccess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mine"
+        mc:Ignorable="d" Height="208.783" Width="318.243" Icon="mineicon.ico" Left="200" Top="200">
+    <Grid RenderTransformOrigin="0.506,0.459">
+        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Height="27" Margin="22,117,0,0" VerticalAlignment="Top" Width="69" Click="BtnOk_Click"/>
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Height="27" Margin="136,117,0,0" VerticalAlignment="Top" Width="69" Click="BtnCancel_Click"/>
+        <Label x:Name="lblInputNameTip" Content="尊姓大名？" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Width="79"/>
+        <TextBox x:Name="txtPlayer" HorizontalAlignment="Left" Height="23" Margin="22,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Text="玩家"/>
+
+    </Grid>
+</Window>

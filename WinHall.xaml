@@ -1,0 +1,45 @@
+﻿<Window x:Name="winHall" x:Class="Mine.WinHall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mine"
+        mc:Ignorable="d"
+        Title="最高纪录" Height="450" Width="758.4">
+    <Grid>
+        <Label Content="初级" HorizontalAlignment="Left" Margin="39,36,0,0" VerticalAlignment="Top" Width="43" Height="27"/>
+        <Label Content="中级" HorizontalAlignment="Left" Margin="311,36,0,0" VerticalAlignment="Top" Width="43" Height="27"/>
+        <Label Content="高级" HorizontalAlignment="Left" Margin="583,36,0,0" VerticalAlignment="Top" Width="43" Height="27"/>
+        <Label x:Name="lblJuniorOne" Content="Label" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorTow" Content="Label" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorThree" Content="Label" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorFour" Content="Label" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorFive" Content="Label" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorSix" Content="Label" HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorSeven" Content="Label" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorEight" Content="Label" HorizontalAlignment="Left" Margin="10,298,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorNine" Content="Label" HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblJuniorTen" Content="Label" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleOne" Content="Label" HorizontalAlignment="Left" Margin="256,82,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleTwo" Content="Label" HorizontalAlignment="Left" Margin="256,113,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleThree" Content="Label" HorizontalAlignment="Left" Margin="256,144,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleFour" Content="Label" HorizontalAlignment="Left" Margin="256,175,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleFive" Content="Label" HorizontalAlignment="Left" Margin="256,206,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleSix" Content="Label" HorizontalAlignment="Left" Margin="256,236,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleSeven" Content="Label" HorizontalAlignment="Left" Margin="256,267,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleEight" Content="Label" HorizontalAlignment="Left" Margin="256,298,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleNine" Content="Label" HorizontalAlignment="Left" Margin="256,329,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblMiddleTen" Content="Label" HorizontalAlignment="Left" Margin="256,360,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorOne" Content="Label" HorizontalAlignment="Left" Margin="506,82,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorTwo" Content="Label" HorizontalAlignment="Left" Margin="506,113,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorThree" Content="Label" HorizontalAlignment="Left" Margin="506,144,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorFour" Content="Label" HorizontalAlignment="Left" Margin="506,175,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorFive" Content="Label" HorizontalAlignment="Left" Margin="506,206,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorSix" Content="Label" HorizontalAlignment="Left" Margin="506,236,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorSeven" Content="Label" HorizontalAlignment="Left" Margin="506,267,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorEight" Content="Label" HorizontalAlignment="Left" Margin="506,298,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorNine" Content="Label" HorizontalAlignment="Left" Margin="506,329,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="lblSeniorTen" Content="Label" HorizontalAlignment="Left" Margin="506,360,0,0" VerticalAlignment="Top" Width="218"/>
+
+    </Grid>
+</Window>
